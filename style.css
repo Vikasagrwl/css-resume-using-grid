@@ -56,4 +56,45 @@ body{
     font-size: .75rem;
     text-align: center;
     padding: 1rem;
+    
+}
+.social-media{
+    display: flex;
+}
+.icon{
+    margin-left: 2rem;
+    height: 1rem;
+    width: 1rem;
+}
+.personal-details{
+    margin-top: 2rem;
+    justify-content: start;
+}
+.personal-details .icon{
+    display: flex;
+}
+.personal-details li{
+    margin-top: 1rem;
+}
+.personal-details li a{
+    margin-left: 1rem;
+    white-space: nowrap;
+    font-size: .8rem;
+}
+.skills{
+    font-size: .75rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1rem .5rem;
+}
+.skill-name{
+    text-align: left;
+}
+.progress-bar{
+    background-color: white;
+    border: solid 1px white ;
+    height: 4px;  
+}
+.right-main-content{
+    padding: 2rem 3rem;
 }

@@ -14,7 +14,6 @@ body{
     width: 90%;
     margin: 20px auto;
     display: grid;
-    grid-template-rows: 1000px;
     grid-template-columns: 300px 700px;
     justify-content: center;
 }
@@ -27,12 +26,12 @@ body{
 .left-section{
     background-color: #b3b8ed;
     color: #000000;
-    grid-column: span 1/2;
+    grid-column: span 1;
 }
 .right-section{
     background-color: #d8fae2;
     color: #000000;
-    grid-column: span 1/3;
+    grid-column: span 1/ span 2;
 }
 .left-content{
     padding: 1rem;
@@ -49,7 +48,7 @@ body{
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
-    letter-spacing: .02rem;
+    letter-spacing: 0.02px;
     padding: 0.8rem;
 }
 .designation{
@@ -65,6 +64,7 @@ body{
     padding: 1rem;
     
 }
+
 .social-media{
     display: flex;
 }
@@ -95,7 +95,9 @@ body{
     padding: 1rem .5rem;
 }
 .skill-name{
+    font-size: 0.65rem;
     text-align: left;
+    padding-bottom: 0.5rem;
 }
 .progress-bar{
     background-color: white;
